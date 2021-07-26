@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+	<parameter name="MyName" value="Appium Automation"></parameter>
+	<test thread-count="5" name="Test1">
+
+		<parameter name="MyName" value="Selenium Automation"></parameter>
+		<parameter name="MyName3" value="Robotic Automation"></parameter>
+		<classes>
+			<class name="test.TestNGParametersDemo"></class>
+		</classes>
+	</test> <!-- Test1 -->
+
+</suite> <!-- Suite1 -->
