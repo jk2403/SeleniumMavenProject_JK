@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13049" started-at="2021-05-04T10:46:59 IST" finished-at="2021-05-04T10:47:12 IST">
+  <suite name="Default suite" duration-ms="10024" started-at="2021-07-28T12:03:07 IST" finished-at="2021-07-28T12:03:17 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13049" started-at="2021-05-04T10:46:59 IST" finished-at="2021-05-04T10:47:12 IST">
-      <class name="demo.OrangeHRMLive">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.OrangeHRMLive@3b2da18f]" name="setUp" is-config="true" duration-ms="1866" started-at="2021-05-04T10:46:59 IST" finished-at="2021-05-04T10:47:00 IST">
+    <test name="Default test" duration-ms="10024" started-at="2021-07-28T12:03:07 IST" finished-at="2021-07-28T12:03:17 IST">
+      <class name="test.TestNGDemo">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:test.TestNGDemo@7fc229ab]" name="setUpTest" is-config="true" duration-ms="5326" started-at="2021-07-28T12:03:07 IST" finished-at="2021-07-28T12:03:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testOrangeHRMLive()[pri:0, instance:demo.OrangeHRMLive@3b2da18f]" name="testOrangeHRMLive" duration-ms="9267" started-at="2021-05-04T10:47:00 IST" finished-at="2021-05-04T10:47:10 IST">
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:test.TestNGDemo@7fc229ab]" name="googleSearch" duration-ms="3704" started-at="2021-07-28T12:03:12 IST" finished-at="2021-07-28T12:03:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOrangeHRMLive -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.OrangeHRMLive@3b2da18f]" name="tearDown" is-config="true" duration-ms="1891" started-at="2021-05-04T10:47:10 IST" finished-at="2021-05-04T10:47:12 IST">
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:test.TestNGDemo@7fc229ab]" name="tearDownTest" is-config="true" duration-ms="967" started-at="2021-07-28T12:03:16 IST" finished-at="2021-07-28T12:03:17 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demo.OrangeHRMLive -->
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- test.TestNGDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

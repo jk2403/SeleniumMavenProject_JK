@@ -3,8 +3,8 @@
 <suite parallel="classes" name="Suite1">
 	<test thread-count="5" parallel="classes" name="Test1">
 		<classes>
-			<class name="test.TestWebToursLogin2" />
-			<class name="test.TestNGDemo2" />
+<!-- 			<class name="test.TestWebToursLogin2" />
+			<class name="test.TestNGDemo2" /> -->
 			<class name="test.TestNGDemo" />
 		</classes>
 	</test> <!-- Test1 -->
